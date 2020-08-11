@@ -138,6 +138,37 @@ a:hover {
   text-decoration: underline;
 }
 
+main img {
+  width: 400px;
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+@media screen and (max-width: 1300px) {
+  main img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #title p {
+    font-size: .7em;
+  }
+
+  section p {
+    font-size: 1em;
+  }
+
+  main img {
+    width: 275px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   nav li {
     display: inline-block;
@@ -162,6 +193,11 @@ a:hover {
   .navbar {
     top: 39px;
   }
+
+  main img {
+    width: 490px;
+    display: unset;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -177,9 +213,22 @@ a:hover {
     display: inline;
     margin-right: 1%;
   }
+
+  main img {
+    width: 390px;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  main p {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 700px) {
+
   .infobar p {
     display: inline;
     margin-right: 1%;
@@ -195,6 +244,25 @@ a:hover {
 
   .navbar {
     top: 34px;
+  }
+
+  h1 {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+  }
+
+  #title p {
+    font-size: .6em;
+  }
+
+  section p {
+    font-size: .8em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  main img {
+    width: 350px;
   }
 }
 
@@ -224,5 +292,17 @@ a:hover {
     height: .1px;
     width: .1px;
     visibility: hidden;
+  }
+
+  main img {
+    width: 290px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  main p {
+    font-size: .7em;
   }
 }
