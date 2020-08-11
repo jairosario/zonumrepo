@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Heebo:wght@200&family=Montserrat:wght@400;900&family=Playfair+Display&display=swap');
+
+html, body {
+  margin: 0;
+  background-color: #EAEAEA;
+  scroll-behavior: smooth;
+}
+
+.infobar {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #254652;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.infobar p {
+  display: inline;
+  margin-right: 5%;
+}
+
+.infobar img {
+  height: 25px;
+  width: 25px;
+  display: inline;
+  margin-right: 1%;
+}
+
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  color: #254652;
+  text-align: center;
+  margin: 0;
+  background-color: white;
+  box-shadow: 0px 3px 10px -10px #111;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 3%;
+  margin-right: 3%;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #254652;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.thumbnail {
+  height: 300px;
+  width: 300px;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+h1 {
+  font-family: 'Bowlby One', sans-serif;
+  margin: 0;
+  text-align: center;
+  font-size: 9em;
+  color: #F5F5F5;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+}
