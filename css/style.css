@@ -142,7 +142,7 @@ a:hover {
   color: white;
 }
 
-#span a {
+#span span a {
   text-decoration: underline;
   color: white;
 }
