@@ -28,6 +28,10 @@ html, body {
   margin-right: 1%;
 }
 
+.infobar a {
+  color: white;
+}
+
 .navbar {
   font-family: 'Montserrat', sans-serif;
   color: #254652;
