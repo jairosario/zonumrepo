@@ -28,10 +28,6 @@ html, body {
   margin-right: 1%;
 }
 
-.infobar a {
-  color: white;
-}
-
 .navbar {
   font-family: 'Montserrat', sans-serif;
   color: #254652;
@@ -71,6 +67,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.infobar a {
+  color: white;
 }
 
 h1 {
